@@ -1,0 +1,16 @@
+{
+  "name": "api-usuarios-recuperativa",
+  "version": "1.0.0",
+  "description": "API REST con Node.js, Express y SQLite - CRUD de Usuario (Evaluación Recuperativa CIB302)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/usuarios.test.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.0.0",
+    "express": "^5.1.0"
+  }
+}
