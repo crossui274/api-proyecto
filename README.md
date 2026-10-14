@@ -72,3 +72,10 @@ npm test
 ├── package.json
 └── README.md
 ```
+## Solución de problemas
+
+Si npm install muestra un aviso de install-scripts para better-sqlite3
+(npm recientes bloquean scripts de instalación), ejecutar:
+
+npm install-scripts approve better-sqlite3
+npm rebuild better-sqlite3
